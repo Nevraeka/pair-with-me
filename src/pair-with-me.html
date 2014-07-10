@@ -1,0 +1,33 @@
+<template id="pair-with-me-tmpl">
+  <style>
+
+    polyfill-next-selector { content: ":host"; }
+
+    :host {
+      cursor: pointer;
+    }
+
+    polyfill-next-selector { content: ":host img"; }
+
+    :host img {
+      width     : 100%;
+      max-width : 100%;
+    }
+    
+    polyfill-next-selector { content : ":host p"; }
+
+    :host p {
+      width       : 100%;
+      line-height : 1.5;
+      font-size   : 1.2rem;
+      text-align  : center;
+    }
+  </style>
+  <a target='_blank'>
+    <img alt="pair programming badge link" src="http://www.pairprogramwith.me/assets/badge.svg">
+  </a>
+  <p>
+    <content></content>
+  </p>
+</template>
+<script src="pair-with-me.js"></script>

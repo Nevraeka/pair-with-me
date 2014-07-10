@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>&lt;pair-with-me&gt;</title>
+
+    <!-- Importing Web Component's Polyfill -->
+    <script src="lib/platform/platform.js"></script>
+
+    <!-- Importing Custom Elements -->
+    <link rel="import" href="src/pair-with-me.html">
+</head>
+<body>
+
+    <!-- Using Custom Elements -->
+    <pair-with-me>Pair With Me Sometime #pairwithme</pair-with-me>
+  <script>
+    document.addEventListener('pair-with-me', function(evt){
+      console.log("pair-with-me event fired!", evt.detail);
+    }, false);
+  </script>
+</body>
+</html>
