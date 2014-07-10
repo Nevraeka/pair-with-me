@@ -1,0 +1,21 @@
+{
+    "name": "pair-with-me",
+    "version": "0.0.1",
+    "description": "A simple Vanilla JavaScript Web Component for pair programming contact information. Artwork is from Advi Grimm's pairprogramwith.me project where you can learn more about pair programming, pairing tools, and how to get started. ",
+    "license": "MIT",
+    "authors": "Erik Isaksen",
+    "main": "src/pair-with-me.html",
+    "keywords": [
+      "web-components",
+      "pair-programming"
+    ],
+    "homepage": "https://github.com/Nevraeka/pair-with-me",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "lib"
+    ],
+    "dependencies": {
+        "platform": "Polymer/platform#~0.3.3"
+    }
+}
