@@ -1,3 +1,5 @@
+# DEPRECATED! No longer actively maintained
+
 # &lt;pair-with-me&gt;
 
 > A simple Vanilla JavaScript Web Component for pair programming contact information. Artwork is from Advi Grimm's pairprogramwith.me project where you can learn more about pair programming, pairing tools, and how to get started. 
